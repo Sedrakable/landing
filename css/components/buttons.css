@@ -1,0 +1,35 @@
+.btn {
+  display: inline-block;
+  margin: 8px 0px;
+  text-decoration: none;
+  padding: 14px 24px;
+}
+
+.btn-apply {
+  color: var(--primary);
+  background-color: var(--secondary);
+  font-weight: bold;
+  border-radius: 16px 0px 16px 0px;
+  transition: 0.1s;
+}
+
+.btn-apply:hover {
+  color: var(--secondary);
+  background-color: var(--primary-solid);
+  border: 3px solid var(--secondary);
+  transition: 0.3s;
+}
+
+.icons {
+  height: auto;
+  margin: 16px 0;
+}
+
+.icons a {
+  display: inline-block;
+  margin: 0px 8px;
+  height: 48px;
+  font-size: 48px;
+  text-decoration: none;
+  color: var(--secondary);
+}
